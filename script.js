@@ -13,15 +13,19 @@ document.getElementById('login-submit').addEventListener('click', function () {
 
 
   if (userEmail == 'rabiul@gmail.com' && userPassword == 'rabiset') {
-    document.body.style.backgroundColor = "green";
+    document.body.style.backgroundColor = 'green';
 
     window.location.href = 'banking.html';
     console.log('Congratulation');
   }
   else {
-    console.log('none user');
+    console.log("Don't match with your password and mail");
+
+
   }
 
 
+});
 
-})
+// banking page body color
+
