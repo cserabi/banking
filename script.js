@@ -15,7 +15,7 @@ document.getElementById('login-submit').addEventListener('click', function () {
   if (userEmail == 'rabiul@gmail.com' && userPassword == 'rabiset') {
     document.body.style.backgroundColor = "green";
 
-    window.location.replace = 'http://127.0.0.1:5500/banking.html';
+    window.location.replace = 'banking.html';
     console.log('Congratulation');
   }
   else {
