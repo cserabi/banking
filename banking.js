@@ -50,7 +50,7 @@ document.getElementById('deposit-button').addEventListener('click', function () 
   depositeInput.value = ' ';
 
   console.log(previousDepositAmount);
-})
+});
 
 
 // handle the withdraw option
@@ -90,10 +90,6 @@ document.getElementById('withdraw-button').addEventListener('click', function ()
   previousBalance.innerText = UpdateBalance;
 
 
+  withdrawInput.value = ' ';
 
-
-
-
-
-
-})
+});
